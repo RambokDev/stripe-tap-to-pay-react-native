@@ -1,22 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0266b240-d008-467f-aa0a-7fe32ca6b38f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stripe-tap-to-pay-react-native.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/adaptive-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    <list default="true" id="0266b240-d008-467f-aa0a-7fe32ca6b38f" name="Changes" comment="first version">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/debug.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/debug/java/com/rambogte/stripetaptopayreactnative/ReactNativeFlipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/rambogte/stripetaptopayreactnative/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/rambogte/stripetaptopayreactnative/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-hdpi/splashscreen_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-mdpi/splashscreen_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-xhdpi/splashscreen_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxhdpi/splashscreen_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable-xxxhdpi/splashscreen_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/rn_edit_text_material.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/splashscreen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values-night/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/release/java/com/rambogte/stripetaptopayreactnative/ReactNativeFlipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/.xcode.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile.properties.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative.xcodeproj/xcshareddata/xcschemes/stripetaptopayreactnative.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/AppDelegate.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreen.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreen.imageset/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreenBackground.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreenBackground.imageset/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/SplashScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Supporting/Expo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/noop-file.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/stripetaptopayreactnative-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/stripetaptopayreactnative/stripetaptopayreactnative.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +87,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -44,6 +109,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/charlesgauthereau/IdeaProjects/stripe-tap-to-pay-react-native/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +119,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,8 +140,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705525479155</updated>
-      <workItem from="1707144821412" duration="331000" />
+      <workItem from="1707144821412" duration="1900000" />
     </task>
+    <task id="LOCAL-00001" summary="first version">
+      <option name="closed" value="true" />
+      <created>1707145165627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707145165627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version" />
   </component>
 </project>
