@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0266b240-d008-467f-aa0a-7fe32ca6b38f" name="Changes" comment="readme">
-      <change afterPath="$PROJECT_DIR$/src/DiscoveredScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaymentScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaymentScreenTap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.xcode.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.properties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative.xcodeproj/xcshareddata/xcschemes/stripetaptopayreactnative.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/AppDelegate.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/AppIcon.appiconset/App-Icon-1024x1024@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreen.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreen.imageset/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreenBackground.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Images.xcassets/SplashScreenBackground.imageset/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/SplashScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/Supporting/Expo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/noop-file.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/stripetaptopayreactnative-Bridging-Header.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/stripetaptopayreactnative/stripetaptopayreactnative.entitlements" beforeDir="false" />
-    </list>
+    <list default="true" id="0266b240-d008-467f-aa0a-7fe32ca6b38f" name="Changes" comment="V1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/charlesgauthereau/IdeaProjects/stripe-tap-to-pay-react-native",
+    "last_opened_file_path": "/Users/charlesgauthereau/IdeaProjects/stripe-tap-to-pay-react-native/android",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,8 +46,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/android" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -101,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705525479155</updated>
-      <workItem from="1707144821412" duration="3499000" />
+      <workItem from="1707144821412" duration="3940000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <option name="closed" value="true" />
@@ -119,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707146808469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V1">
+      <option name="closed" value="true" />
+      <created>1707148554265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707148554265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +102,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first version" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1" />
   </component>
 </project>
