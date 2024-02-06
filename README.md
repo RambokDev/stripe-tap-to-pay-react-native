@@ -19,8 +19,12 @@
   </p>
 </div>
 
+
+https://github.com/RambokDev/stripe-tap-to-pay-react-native/assets/97283640/29c00b9c-3cb8-4081-b3a7-cf4c3bdb628a
+
+
 <div align="center">
-  <video src="githubAssets/videos/video.mp4" width="400" />
+  <video src="[githubAssets/videos/video.mp4](https://github.com/RambokDev/stripe-tap-to-pay-react-native/assets/97283640/29c00b9c-3cb8-4081-b3a7-cf4c3bdb628a)" width="400" />
 </div>
 
 
