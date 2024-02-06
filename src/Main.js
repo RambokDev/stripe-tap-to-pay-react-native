@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {View, LogBox, Button} from "react-native";
 
-// test-pr
+// test-praaa
 
 import {requestNeededAndroidPermissions, useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 
