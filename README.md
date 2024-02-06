@@ -10,7 +10,7 @@
   </a>
 <h3 align="center">Stripe Tap to pay React Native</h3>
   <p align="center">
-    POC that demonstrate the usage of tap to pay provided by stripe React native SDK !
+    PoC that demonstrates the usage of Tap to Pay provided by Stripe React native SDK.
     <br />
     <br />
     <br />
