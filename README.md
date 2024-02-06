@@ -47,7 +47,7 @@ Follow this different steps in order to reproduce the demonstration
    ```
 4. Enter your API in `app.config.js`
    ```js
-   apiUrl: process.env.API_URL ?? 'https://your-api-url/',
+   apiUrl: process.env.API_URL ?? 'https://your-api-url/'
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -94,6 +94,28 @@ Locally
    ```sh
     eas build -p android --profile preview --local 
    ```
+
+Example of app.config.js
+
+```
+
+module.exports = ({config}) => {
+    return {
+        ...config,
+        extra: {
+            apiUrl: process.env.API_URL ?? 'https://https://your-api-url/',
+            eas: {
+                projectId: "xxxxxxx"
+            },
+            runtimeVersion: {
+                policy: "sdkVersion"
+            },
+
+        }
+    }
+}
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
