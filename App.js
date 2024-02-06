@@ -9,30 +9,30 @@ import AppNavigator from "./Navigation/AppNavigator";
 export default function App() {
     const apiUrl = Constants.expoConfig.extra.apiUrl;
 
-
-    const fetchTokenProvider = async () => {
-        console.log(apiUrl)
-        const response = await fetch(`${apiUrl}connection_token`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        });
-        const {secret} = await response.json();
-        console.log(secret)
-        return secret;
-    };
-    return (
-        <NavigationContainer>
-            <StripeTerminalProvider
-                logLevel="verbose"
-                tokenProvider={fetchTokenProvider}
-            >
-                <AppNavigator/>
-                {/*<Main/>*/}
-            </StripeTerminalProvider>
-        </NavigationContainer>
-    );
+  //
+  const fetchTokenProvider = async () => {
+    console.log(apiUrl)
+    const response = await fetch(`${apiUrl}connection_token`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    const {secret} = await response.json();
+    console.log(secret)
+    return secret;
+  };
+  return (
+      <NavigationContainer>
+        <StripeTerminalProvider
+            logLevel="verbose"
+            tokenProvider={fetchTokenProvider}
+        >
+          <AppNavigator/>
+          {/*<Main/>*/}
+        </StripeTerminalProvider>
+      </NavigationContainer>
+  );
 }
 
 const styles = StyleSheet.create({
