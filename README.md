@@ -71,7 +71,23 @@ Follow this different steps in order to reproduce the demonstration
 if and error occurred, you may add 'local.properties' file in android/ with the following code : 
    ```sh
     sdk.dir = /xxxxx/userxxxx/Library/Android/sdk
+    
+    or 
+    
+    export ANDROID_HOME=/xxxxx/userxxxx/Library/Android/sdk
    ```
+
+3. build your app locally  
+   ```sh
+    eas build -p android --profile preview --local 
+   ```
+
+4. build your app with expo services
+   ```sh
+    eas build -p android --profile preview  
+   ```
+   
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
