@@ -1,4 +1,4 @@
-import {View, Text, TouchableOpacity} from "react-native";
+import {View, Text, TouchableOpacity, StyleSheet} from "react-native";
 import {useEffect, useState} from "react";
 import {
     collectPaymentMethod, confirmPaymentIntent,
@@ -6,8 +6,10 @@ import {
     retrievePaymentIntent
 } from "@stripe/stripe-terminal-react-native/src/functions";
 import Constants from "expo-constants";
+import Spinner from "react-native-loading-spinner-overlay";
 
 export default function PaymentScreenTap({navigation}) {
+    const [loading, setLoading] = useState(false)
     const [payment, setPayment] = useState(null)
     const [retrievePayment, setRetrievePayment] = useState(null)
     const [collectPayment, setCollectPayment] = useState(null)
@@ -43,6 +45,7 @@ export default function PaymentScreenTap({navigation}) {
 
     useEffect(() => {
         const apiUrl = Constants.expoConfig.extra.apiUrl;
+
         async function retrievePayment() {
             console.log(apiUrl)
             const response = await fetch(`${apiUrl}payment_intent`, {
@@ -51,7 +54,7 @@ export default function PaymentScreenTap({navigation}) {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    amount: 1000
+                    amount: 100
                 }),
             });
             const secret = await response.json();
@@ -95,15 +98,18 @@ export default function PaymentScreenTap({navigation}) {
             setCollectPayment(paymentIntent)
             console.log(paymentIntent)
 
+            setLoading(true)
 
-
-            const { paymentIntent:paymentIntent2, error:error2 } = await confirmPaymentIntent(paymentIntent);
+            const {paymentIntent: paymentIntent2, error: error2} = await confirmPaymentIntent(paymentIntent);
             if (error2) {
                 // Placeholder for handling exception$
                 console.log(error2)
+                setLoading(false)
                 return;
             }
-            console.log("ici",paymentIntent2)
+            console.log("ici", paymentIntent2)
+            setLoading(false)
+            navigation.goBack()
 
         }
 
@@ -130,7 +136,19 @@ export default function PaymentScreenTap({navigation}) {
 
     return (
         <View>
+            <Spinner
+                visible={loading}
+                textContent={'Loading...'}
+                textStyle={styles.spinnerTextStyle}
+            />
             <Text>Tap to pay</Text>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    spinnerTextStyle: {
+        color: '#FFF'
+    },
+
+});

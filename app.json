@@ -36,7 +36,10 @@
             "minSdkVersion": 26,
             "compileSdkVersion": 34,
             "targetSdkVersion": 34,
-            "buildToolsVersion": "34.0.0"
+            "buildToolsVersion": "34.0.0",
+            "packagingOptions": {
+              "pickFirst": ["org/bouncycastle/x509/CertPathReviewerMessages*"]
+            }
           },
           "ios": {
             "deploymentTarget": "15.0"

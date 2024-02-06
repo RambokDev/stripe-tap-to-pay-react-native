@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import {Text, SafeAreaView, StatusBar, StyleSheet, View, FlatList, TouchableOpacity, Alert} from "react-native";
 import {useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 import {connectLocalMobileReader} from "@stripe/stripe-terminal-react-native/src/functions";
+import Constants from "expo-constants";
 
 
 function DiscoverScreen() {
@@ -33,7 +34,7 @@ function DiscoverScreen() {
         async function reader() {
             const {error} = await discoverReaders({
                 discoveryMethod: 'localMobile',
-                simulated: true,
+                // simulated: true,
             });
         }
 
@@ -43,10 +44,23 @@ function DiscoverScreen() {
 
 
     useEffect( () => {
+        const apiUrl = Constants.expoConfig.extra.apiUrl;
+
         async function connectToReader(){
+            const response = await fetch(`${apiUrl}location/Oliver De Guyenro - Pixel 6a`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+
+            });
+            const location = await response.json();
+            console.log("my location",location)
+
+
             const {reader, error} = await connectLocalMobileReader({
                 reader: readerChoice,
-                locationId: 'tml_FbXBsQSyvC2tal'
+                locationId: location.id
             });
             if (error) {
                 console.log('connectLocalMobileReader error:', error);
