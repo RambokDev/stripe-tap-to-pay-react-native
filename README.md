@@ -19,6 +19,10 @@
 
 
 
+https://github.com/RambokDev/stripe-tap-to-pay-react-native/assets/97283640/257ee1aa-ccf0-42a5-b228-a63e3aaf8ad3
+
+
+
 <!-- GETTING STARTED -->
 
 ## Getting Started
