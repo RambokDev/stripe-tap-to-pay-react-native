@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import {View, LogBox, Button} from "react-native";
 
+
 import {requestNeededAndroidPermissions, useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 
 LogBox.ignoreLogs([
