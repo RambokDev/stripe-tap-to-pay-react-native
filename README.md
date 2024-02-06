@@ -23,11 +23,11 @@
 
 ## Getting Started
 
-This is an example of how you can use the tap to pay provided bu stripe SDK with React native and Expo.
+This is an example of how you can use the Tap to Pay provided by Stripe SDK with React Native and Expo.
 
 ### Prerequisites
 
-First please install npm on your computer.
+First, install npm on your computer.
 
   ```sh
   npm install npm@latest -g
@@ -37,7 +37,7 @@ First please install npm on your computer.
 
 Follow this different steps in order to reproduce the demonstration
 
-1. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/RambokDev/stripe-tap-to-pay-react-native.git
    ```
@@ -45,7 +45,7 @@ Follow this different steps in order to reproduce the demonstration
    ```sh
    npm install
    ```
-4. Enter your API in `app.config.js`
+4. Enter your API url in `app.config.js`
    ```js
    apiUrl: process.env.API_URL ?? 'https://your-api-url/'
    ```
@@ -54,17 +54,17 @@ Follow this different steps in order to reproduce the demonstration
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 
 ## Usage
 
-#### 1. prebuild
+#### 1. Pre-build
    ```sh
    npx expo prebuild
    ```
 
 
-#### 2. start your app
+#### 2. Run your app
    ```sh
     npx expo run:android
    ```
@@ -103,7 +103,7 @@ module.exports = ({config}) => {
     return {
         ...config,
         extra: {
-            apiUrl: process.env.API_URL ?? 'https://https://your-api-url/',
+            apiUrl: process.env.API_URL ?? 'https://www.api-example.com/',
             eas: {
                 projectId: "xxxxxxx"
             },
