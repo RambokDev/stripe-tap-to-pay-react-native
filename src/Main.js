@@ -1,6 +1,7 @@
-import {requestNeededAndroidPermissions, useStripeTerminal, Reader, Location} from "@stripe/stripe-terminal-react-native";
 import {useEffect, useState} from "react";
-import {View, Text, Alert, LogBox, Button} from "react-native";
+import {View, LogBox, Button} from "react-native";
+
+import {requestNeededAndroidPermissions, useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 
 LogBox.ignoreLogs([
     'Overwriting fontFamily style attribute preprocessor',
