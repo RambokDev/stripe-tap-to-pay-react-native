@@ -1,0 +1,82 @@
+Index: .idea/GitLink.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/GitLink.xml b/.idea/GitLink.xml
+new file mode 100644
+--- /dev/null	(date 1707229816756)
++++ b/.idea/GitLink.xml	(date 1707229816756)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="uk.co.ben_gibson.git.link.SettingsState">
++    <option name="host" value="72037fcc-cb9c-4c22-960a-ffe73fd5e229" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"0266b240-d008-467f-aa0a-7fe32ca6b38f\" name=\"Changes\" comment=\"README.md\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App.js\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\n  \"lastFilter\": {\n  }\n}]]></component>\n  <component name=\"GithubProjectSettings\">\n    <option name=\"branchProtectionPatterns\">\n      <list>\n        <option value=\"secure\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"73a6e108-2d97-4388-a5f0-0ad80b0cd3a0\" />\n        <option name=\"url\" value=\"https://github.com/RambokDev/stripe-tap-to-pay-react-native.git\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 0\n}]]></component>\n  <component name=\"ProjectId\" id=\"2bx7LQDyXIRBrQtwyMMaHLraz9F\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/charlesgauthereau/IdeaProjects/stripe-tap-to-pay-react-native/android\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"SDKs\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.40344828\",\n    \"settings.editor.selected.configurable\": \"AndroidSdkUpdater\",\n    \"ts.external.directory.path\": \"/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/android\" />\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/images\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.10-corretto-17.0.10-f644763e9732-24582b8d\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"0266b240-d008-467f-aa0a-7fe32ca6b38f\" name=\"Changes\" comment=\"\" />\n      <created>1705525479155</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1705525479155</updated>\n      <workItem from=\"1707144821412\" duration=\"14982000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"first version\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707145165627</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707145165627</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"readme\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707146808469</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707146808469</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"V1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707148554265</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707148554265</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"V1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707148774804</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707148774804</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"build\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707214284839</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707214284839</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"README.md\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707214629820</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707214629820</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"README.md\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707214983066</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707214983066</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"first version\" />\n    <MESSAGE value=\"readme\" />\n    <MESSAGE value=\"V1\" />\n    <MESSAGE value=\"build\" />\n    <MESSAGE value=\"README.md\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"README.md\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5835c3620b71e627b82a418cb56692462723b402)
++++ b/.idea/workspace.xml	(date 1707217632404)
+@@ -6,7 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="0266b240-d008-467f-aa0a-7fe32ca6b38f" name="Changes" comment="README.md">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -14,6 +13,11 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+@@ -23,7 +27,7 @@
+   <component name="GithubProjectSettings">
+     <option name="branchProtectionPatterns">
+       <list>
+-        <option value="secure" />
++        <option value="security" />
+       </list>
+     </option>
+   </component>
+@@ -92,7 +96,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1705525479155</updated>
+-      <workItem from="1707144821412" duration="14982000" />
++      <workItem from="1707144821412" duration="16424000" />
+     </task>
+     <task id="LOCAL-00001" summary="first version">
+       <option name="closed" value="true" />
+@@ -150,7 +154,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1707214983066</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="README.md">
++      <option name="closed" value="true" />
++      <created>1707215562781</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1707215562781</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

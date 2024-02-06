@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RambokDev/stripe-tap-to-pay-react-native">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="githubAssets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 <h3 align="center">Stripe Tap to pay React Native</h3>
   <p align="center">
@@ -17,7 +17,9 @@
   </p>
 </div>
 
-
+<div align="center">
+  <video src="githubAssets/videos/video.mp4" width="400" />
+</div>
 
 <!-- GETTING STARTED -->
 
