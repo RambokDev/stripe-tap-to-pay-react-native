@@ -1,5 +1,6 @@
-import {View, Text, TouchableOpacity, StyleSheet} from "react-native";
 import {useEffect, useState} from "react";
+import {View, Text, TouchableOpacity, StyleSheet} from "react-native";
+
 import {
     collectPaymentMethod, confirmPaymentIntent,
     createPaymentIntent,

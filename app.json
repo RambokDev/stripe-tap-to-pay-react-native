@@ -38,7 +38,9 @@
             "targetSdkVersion": 34,
             "buildToolsVersion": "34.0.0",
             "packagingOptions": {
-              "pickFirst": ["org/bouncycastle/x509/CertPathReviewerMessages*"]
+              "pickFirst": [
+                "org/bouncycastle/x509/CertPathReviewerMessages*"
+              ]
             }
           },
           "ios": {

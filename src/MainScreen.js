@@ -1,7 +1,7 @@
-import {View, Text, Button, SafeAreaView, FlatList, StatusBar, StyleSheet, TouchableOpacity} from "react-native";
-import Main from "./Main";
-import {requestNeededAndroidPermissions, useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 import {useEffect, useState} from "react";
+import {Text, SafeAreaView, StatusBar, StyleSheet, TouchableOpacity} from "react-native";
+
+import {requestNeededAndroidPermissions, useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 
 export default function MainScreen({navigation}) {
 
@@ -37,6 +37,7 @@ export default function MainScreen({navigation}) {
                 console.error(e);
             }
         }
+
         init();
     }, []);
 

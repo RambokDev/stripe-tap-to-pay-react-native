@@ -59,12 +59,13 @@ Follow this different steps in order to reproduce the demonstration
 ## Usage
 
 #### 1. Pre-build
+
    ```sh
    npx expo prebuild
    ```
 
-
 #### 2. Run your app
+
    ```sh
     npx expo run:android
    ```

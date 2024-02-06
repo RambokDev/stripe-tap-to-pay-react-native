@@ -1,14 +1,13 @@
-// PaymentScreen.tsx
-
 import {useEffect, useState} from "react";
-import {Text, SafeAreaView, StatusBar, StyleSheet, View, FlatList, TouchableOpacity, Alert} from "react-native";
+import {Text, StatusBar, StyleSheet, View, FlatList, TouchableOpacity, Alert} from "react-native";
+
 import {useStripeTerminal} from "@stripe/stripe-terminal-react-native";
 import {connectLocalMobileReader} from "@stripe/stripe-terminal-react-native/src/functions";
 import Constants from "expo-constants";
 
 
 function DiscoverScreen() {
-    const[readerChoice, setReaderChoice] = useState(null)
+    const [readerChoice, setReaderChoice] = useState(null)
 
 
     const {discoverReaders, discoveredReaders} =
@@ -43,10 +42,10 @@ function DiscoverScreen() {
     }, [discoverReaders]);
 
 
-    useEffect( () => {
+    useEffect(() => {
         const apiUrl = Constants.expoConfig.extra.apiUrl;
 
-        async function connectToReader(){
+        async function connectToReader() {
             const response = await fetch(`${apiUrl}location/Oliver De Guyenro - Pixel 6a`, {
                 method: 'GET',
                 headers: {
@@ -55,7 +54,7 @@ function DiscoverScreen() {
 
             });
             const location = await response.json();
-            console.log("my location",location)
+            console.log("my location", location)
 
 
             const {reader, error} = await connectLocalMobileReader({
@@ -69,15 +68,15 @@ function DiscoverScreen() {
 
             console.log('Reader connected successfully', reader);
         }
+
         connectToReader()
 
 
+    }, [readerChoice]);
 
-    },[readerChoice]);
 
-
-    const Item = ({deviceType,item}) => (
-        <TouchableOpacity style={styles.item} onPress={()=> setReaderChoice(item)}>
+    const Item = ({deviceType, item}) => (
+        <TouchableOpacity style={styles.item} onPress={() => setReaderChoice(item)}>
             <Text style={styles.title}>{deviceType}</Text>
         </TouchableOpacity>
     );
@@ -88,8 +87,6 @@ function DiscoverScreen() {
             </View>
         )
     }
-
-
 
 
     return (
