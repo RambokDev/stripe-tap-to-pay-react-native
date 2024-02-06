@@ -11,7 +11,7 @@ import AppNavigator from "./Navigation/AppNavigator";
 export default function App() {
   const apiUrl = Constants.expoConfig.extra.apiUrl;
 
-
+  //
   const fetchTokenProvider = async () => {
     console.log(apiUrl)
     const response = await fetch(`${apiUrl}connection_token`, {
